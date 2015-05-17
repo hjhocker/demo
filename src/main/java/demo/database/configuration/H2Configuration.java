@@ -28,7 +28,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(
 		entityManagerFactoryRef 	= "h2EntityManagerFactory",
 		transactionManagerRef 		= "h2TransactionManager",
-		basePackages = "demo.repository"
+		basePackages 				= "demo.repository"
 		)
 @EnableTransactionManagement
 public class H2Configuration {
